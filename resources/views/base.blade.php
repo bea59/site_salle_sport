@@ -13,7 +13,7 @@
 <header>
     <section class="content">
         <h1>site_salle_sport</h1>
-        <h2>BEAfit PARK</h2>
+        <h2>BEAFIT PARK</h2>
         <div>
             <ul>
                 <li>
