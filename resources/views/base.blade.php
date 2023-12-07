@@ -12,23 +12,24 @@
 <body>
 <header>
     <h1>site_salle_sport</h1>
-    <section>
+    <section class="content">
+        <h2>beafit park</h2>
         <div>
             <ul>
                 <li>
-                    <a href="accueil">accueil</a> 
+                    <a href="{{ route('main.accueil') }}">accueil</a> 
                 </li>
                 <li>
-                    <a href="cours">cours</a>
+                    <a href="{{ route('main.cours') }}">cours</a>
                 </li>
                 <li>
-                    <a href="tarif">tarif</a>
+                    <a href="{{ route('main.tarif') }}">tarifs</a>
                 </li>
                 <li>
-                    <a href="contact">contact</a>
+                    <a href="{{ route('main.contact') }}">contact</a>
                 </li>
                 <li>
-                    <a href="mentions_légales"></a>
+                    <a href="{{ route('main.mentions_légales') }}">mentions_légales</a>
                 </li>
             </ul>
         </div>
