@@ -70,8 +70,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
-
+    'timezone' => 'Europe/Paris',
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration
@@ -83,8 +82,7 @@ return [
     |
     */
 
-    'locale' => 'en',
-
+    'locale' => 'fr',
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
@@ -109,7 +107,7 @@ return [
     |
     */
 
-    'faker_locale' => 'en_US',
+    'faker_locale' => 'fr_FR',
 
     /*
     |--------------------------------------------------------------------------
