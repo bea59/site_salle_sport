@@ -11,9 +11,9 @@
 </head>
 <body>
 <header>
-    <h1>site_salle_sport</h1>
     <section class="content">
-        <h2>beafit park</h2>
+        <h1>site_salle_sport</h1>
+        <h2>BEAfit PARK</h2>
         <div>
             <ul>
                 <li>
@@ -23,18 +23,19 @@
                     <a href="{{ route('main.cours') }}">cours</a>
                 </li>
                 <li>
-                    <a href="{{ route('main.tarif') }}">tarifs</a>
+                    <a href="{{ route('main.tarifs') }}">tarifs</a>
                 </li>
                 <li>
                     <a href="{{ route('main.contact') }}">contact</a>
                 </li>
                 <li>
-                    <a href="{{ route('main.mentions_légales') }}">mentions_légales</a>
+                    <a href="{{ route('main.Mentions_Legales') }}">mentions_légales</a>
                 </li>
             </ul>
         </div>
     </section>
-</header>    
+</header>
+@yield('content')    
 <footer>
     <link rel="mentions_légales" href="mentions_légales">
 </footer>

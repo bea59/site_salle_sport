@@ -16,7 +16,7 @@ class MainController extends Controller
     }
     public function TarifsController()
     {
-        return view('tarif');
+        return view('tarifs');
     }
     public function ContactController()
     {
@@ -24,6 +24,6 @@ class MainController extends Controller
     }
     public function MentionsLegalesController()
     {
-        return view('Mentions-Legales');
+        return view('Mentions_Legales');
     }
 }
